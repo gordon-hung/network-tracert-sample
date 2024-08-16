@@ -1,0 +1,6 @@
+@TracertSample_HostAddress = http://localhost:5116
+
+GET {{TracertSample_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
