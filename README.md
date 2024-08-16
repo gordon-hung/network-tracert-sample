@@ -1,5 +1,5 @@
 # network-tracert-sample
-ASP.NET Core 8.0 TracertSample
+ASP.NET Core 8.0 Tracert
 
 This diagnostic tool determines the path taken to a destination by sending Internet Control Message Protocol (ICMP) echo Request or ICMPv6 messages to the destination with incrementally increasing time to live (TTL) field values. Each router along the path is required to decrement the TTL in an IP packet by at least 1 before forwarding it. Effectively, the TTL is a maximum link counter. When the TTL on a packet reaches 0, the router is expected to return an ICMP time Exceeded message to the source computer.
 
